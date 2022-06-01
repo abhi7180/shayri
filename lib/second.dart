@@ -21,7 +21,6 @@ class second extends StatefulWidget {
   @override
   _secondState createState() => _secondState();
 }
-
 class _secondState extends State<second> {
   double textval = 10;
   String emojiset = "";
@@ -31,6 +30,7 @@ class _secondState extends State<second> {
   List<Color> mybkrgb = [Colors.white, Colors.white];
   GlobalKey _globalKey = new GlobalKey();
   List<Color> currentgradient = [];
+
   Future<Uint8List> _capturePng() async {
     var pngBytes;
     try {

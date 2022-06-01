@@ -98,6 +98,7 @@ class data {
     Colors.orangeAccent,
     Colors.black,
   ];
+
   static List<String> fontlist = [
     "family1",
     "family2",

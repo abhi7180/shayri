@@ -11,7 +11,6 @@ class sizedeta
     btheight=MediaQuery.of(context).padding.bottom;
     appheight=kToolbarHeight;
     bdheight=height!-stheight!-btheight!-appheight!;
-
   }
 
 }

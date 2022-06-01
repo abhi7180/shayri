@@ -19,7 +19,6 @@ class viewdemo extends StatefulWidget {
   @override
   _viewdemoState createState() => _viewdemoState();
 }
-
 class _viewdemoState extends State<viewdemo> {
 
   PageController? controller;

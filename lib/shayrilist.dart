@@ -45,7 +45,6 @@ class _shayrilistState extends State<shayrilist> {
     {
       templist=data.attitudesh;
     }
-
   }
   @override
   Widget build(BuildContext context) {
